@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 78% 12%;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+header {
+    justify-content: center;
+    align-items: end;
+    display: flex;
+}
+
+.container-header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    font-size: 32px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu {
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
+    font-weight: bold;
+}
+
+a,
+li {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+
+.container-title-and-search {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: center;
+    align-items: start;
+    padding-left: 70px;
+}
+
+.title {
+    width: 100%;
+    font-size: 6rem;
+    display: flex;
+    text-align: start;
+    font-weight: 700;
+}
+
+
+.container-card {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    overflow: auto;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+#see {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border: none;
+    background-color: #F47107;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000000;
+}
+
+footer {
+    background-color: #F47107;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.support {
+    gap: 5px;
+    display: grid;
+    font-size: 15px;
+}
+
+.social {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+    font-family: 'Pacifico', cursive;
+}
+
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 32%;
+    align-items: start;
+    display: flex;
+}
+
+.sec-1 span {
+    padding-left: 10px;
+}
+
+
+.sec-2 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 33%;
+    justify-content: center;
+}
+
+.sec-3 {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: end;
+}
+
+.card img {
+    width: 85%;
+    height: 250px;
+}
+
+.card:hover{
+    transform: scale(0.9);
+    transition: .7s;
+}
+
+.main-card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    text-align: center;
+    font-size: 15px;
+    background-color: #f5c292;
+    font-weight: bold;
+    width: 25%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 5px 5px 10px rgb(194, 191, 187);
+    cursor: pointer;
+}
+
+#container-card {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center
+}
+
+.descriptionElement {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Reduz a altura das linhas da grade do corpo */
+    body {
+        grid-template-rows: 8% auto 14%;
+    }
+
+    /* Define o tamanho da fonte do título */
+    .title {
+        font-size: 2.5rem;
+        background-color: #F47107;
+        width: 90%;
+        display: flex;
+        text-align: center;
+    }
+
+    /* Define o tamanho da fonte do menu */
+    .menu {
+        font-size: 12px;
+        width: 60%;
+        justify-content: start;
+    }
+
+    .logo{
+        font-size: 24px;
+        width: 40%;
+    }
+
+
+    /* Atualiza a largura e a altura do botão "ver" */
+    #see {
+        width: 120px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    /* Reduz o tamanho das cartas e a largura do contêiner */
+    .main-card {
+        width: 80%;
+        gap: 10px;
+        background-color: aquamarine;
+        display: grid;
+    }
+
+    .card {
+        font-size: 12px;
+        width: 300px;
+        height: 350px;
+        gap: 5px;
+    }
+
+    #container-card{
+        background-color: blueviolet;
+        display: grid;
+    }
+    /* Atualiza o tamanho da imagem */
+    .card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Atualiza a largura e o espaçamento dos itens de rodapé */
+    .sec-1,
+    .sec-2,
+    .sec-3 {
+        width: 100%;
+        gap: 5px;
+    }
+
+    /* Reduz o tamanho da fonte dos itens de rodapé */
+    .support,
+    .social,
+    .logo-footer {
+        font-size: 12px;
+    }
+
+    .home-body{
+        background-color: chartreuse;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,136 @@
+.favourites {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: calc(80px + 10px); /* adicionando 10px de margem para a barra de rolagem */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.sec-1-fav{
+  width: 90%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sec-2-fav{
+  width: 90%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.sec-3-fav{
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-4-fav img{
+  width: 700px;
+  
+}
+.sec-4-fav{
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.favourites h1{
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    cursor: pointer;
+    width: 20%;
+    border-bottom: 5px solid #ec6911;
+}
+
+.favourites h3{
+    text-align: inherit;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.meio{
+  margin-top: 30px;
+}
+
+.favourites span{
+    font-size: 18px;
+}
+
+.favourites img {
+  border-radius:10px;
+}
+
+.favourites h4{
+    text-align: inherit;
+    color: rgb(47, 20, 10);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.favourites::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.favourites::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.favourites::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.texts-dogs{
+  text-align: justify;
+  width: 550px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ff660091;
+  border-radius: 10px;
+  padding: 15px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.texts-dogs-grey{
+  text-align: justify;
+  width: 550px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #dbd5d091;
+  border-radius: 10px;
+  padding: 15px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+}
