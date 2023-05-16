@@ -6,7 +6,7 @@
 |![](./Captura%20de%20Tela%202023-05-16%20%C3%A0s%2007.59.10.png)|![](./Capturar.PNG)|
 |                     |                        |
 
-### [Clique aqui](https://the-musuem.netlify.app/) para acessar o site!
+### [Clique aqui](https://thedog-api.netlify.app) para acessar o site!
 
 
 ---
