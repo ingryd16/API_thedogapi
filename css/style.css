@@ -71,7 +71,7 @@ main {
     width: 100%;
     font-size: 6rem;
     display: flex;
-    text-align: start;
+    text-align: center; /* Alterado para centralizar horizontalmente */
     font-weight: 700;
 }
 
@@ -98,7 +98,14 @@ main {
     background-color: #F47107;
     border-radius: 50px;
     cursor: pointer;
-    color: #000000;
+    color: #000000
+}
+
+
+.btn-see {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 footer {
@@ -211,85 +218,3 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px) {
-    /* Reduz a altura das linhas da grade do corpo */
-    body {
-        grid-template-rows: 8% auto 14%;
-    }
-
-    /* Define o tamanho da fonte do título */
-    .title {
-        font-size: 2.5rem;
-        background-color: #F47107;
-        width: 90%;
-        display: flex;
-        text-align: center;
-    }
-
-    /* Define o tamanho da fonte do menu */
-    .menu {
-        font-size: 12px;
-        width: 60%;
-        justify-content: start;
-    }
-
-    .logo{
-        font-size: 24px;
-        width: 40%;
-    }
-
-
-    /* Atualiza a largura e a altura do botão "ver" */
-    #see {
-        width: 120px;
-        height: 25px;
-        font-size: 12px;
-    }
-
-    /* Reduz o tamanho das cartas e a largura do contêiner */
-    .main-card {
-        width: 80%;
-        gap: 10px;
-        background-color: aquamarine;
-        display: grid;
-    }
-
-    .card {
-        font-size: 12px;
-        width: 300px;
-        height: 350px;
-        gap: 5px;
-    }
-
-    #container-card{
-        background-color: blueviolet;
-        display: grid;
-    }
-    /* Atualiza o tamanho da imagem */
-    .card img {
-        width: 100%;
-        height: 200px;
-    }
-
-    /* Atualiza a largura e o espaçamento dos itens de rodapé */
-    .sec-1,
-    .sec-2,
-    .sec-3 {
-        width: 100%;
-        gap: 5px;
-    }
-
-    /* Reduz o tamanho da fonte dos itens de rodapé */
-    .support,
-    .social,
-    .logo-footer {
-        font-size: 12px;
-    }
-
-    .home-body{
-        background-color: chartreuse;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
-}

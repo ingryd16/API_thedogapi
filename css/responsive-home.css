@@ -1,0 +1,171 @@
+@media (max-width: 640px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .container-title-and-search {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0%;
+    }
+
+    .btn-see {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        font-size: 12px;
+        width: 60%;
+        justify-content: start;
+    }
+
+    .logo {
+        font-size: 24px;
+        width: 40%;
+    }
+
+    body {
+        display: block;
+    }
+
+    #see {
+        width: 120px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .main-card {
+        width: 100%;
+        gap: 8px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        font-size: 12px;
+        width: 300px;
+        height: 350px;
+        gap: 5px;
+    }
+
+    #container-card {
+        display: grid;
+        gap: 30px;
+        padding-top: 15px;
+    }
+
+    .card img {
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .support,
+    .social,
+    .logo-footer,
+    .sec-2 {
+        font-size: 10px;
+    }
+
+    .home-body {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    .favourites {
+        width: 100%;
+        overflow: auto;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 50px;
+    }
+
+    .sec-1-fav {
+        width: 90%;
+        display: grid;
+        padding-bottom: 10px;
+        gap: 10px;
+    }
+
+    .sec-2-fav {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .sec-3-fav {
+        width: 90%;
+        display: grid;
+        gap: 10px;
+    }
+
+    .sec-4-fav {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+
+    .favourites h1 {
+        font-size: 2.5rem;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .favourites h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .favourites span {
+        font-size: 15px;
+    }
+
+    .favourites img {
+        width: 100%;
+    }
+
+    .favourites img:hover {
+        transform: scale(1.05);
+        transition: .7s;
+    }
+
+    .favourites h4 {
+        font-size: 15px;
+    }
+
+
+    .texts-dogs {
+        width: 100%;
+    }
+
+    .texts-dogs-grey {
+        width: 100%;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .meio {
+        margin-top: 0px;
+        width: 90%;
+    }
+}

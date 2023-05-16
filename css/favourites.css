@@ -1,13 +1,13 @@
 .favourites {
   width: 100%;
   overflow: auto;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   margin-top: 30px;
   margin-left: 80px;
   margin-right: calc(80px + 10px); /* adicionando 10px de margem para a barra de rolagem */
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 60px;
   align-items: center;
 }
 .sec-1-fav{
